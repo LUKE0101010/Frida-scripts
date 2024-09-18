@@ -1,0 +1,9 @@
+adb.exe shell "chmod 777 data/local/tmp/Frida"
+adb shell
+chmod +x Frida
+./Frida
+-----------------
+3.Frida -U -f com.grabtaxi.passenger -l C:\Users\mahdi\Desktop\android_pentest\fridascript.js 
+3.cd /data/local/tmp 
+1.adb shell
+Frida-ps -U -a <-- to show app open 
